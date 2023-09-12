@@ -33,10 +33,7 @@ const aCar = {
 
   console.log('First owner : ' + aCar.previous_owners[0].name + ' - ' + aCar.previous_owners[0].address);
 
-  for (let i = 0 ; i < aCar.features.length ; i += 1) {
-    console.log(aCar.features[i]) ;
-}
 
 for (let i = 0 ; i < aCar.previous_owners.length ; i += 1) {
-    console.log(aCar.previous_owners[i].name) ;
+    console.log(aCar.previous_owners[i].name);
 }
